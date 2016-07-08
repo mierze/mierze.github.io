@@ -1,0 +1,33 @@
+nav.landing {
+  background: url("../resources/banner.jpg");
+  background-position: 0 -80px;
+  position: fixed;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h2 {
+    letter-spacing: $space;
+    font-weight: 200;
+    padding: $gap;
+    margin: 0 auto;
+    text-align: center;
+    color: $light;
+    background-color: #82b440 !important;
+  }
+  span {
+    margin-top: $gap;
+    @extend .center;
+    .bg-drop {
+      background-color: $primary;
+    }
+    a {
+      color: $light;
+      padding: $gap;
+    }
+    a:hover {
+      border: $space solid $primary !important;
+    }
+  }
+}

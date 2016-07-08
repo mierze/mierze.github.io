@@ -1,0 +1,11 @@
+section#disc {
+  background-color: $dark;
+
+  article {
+    h1,h2,h3,p,em {
+      color: $light;
+    }
+    @extend .center;
+  }
+
+}

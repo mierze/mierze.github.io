@@ -1,0 +1,49 @@
+section#volleyball {
+  background-color: $primary;
+  text-align: right;
+  article {
+    em,
+    h1,
+    h2,
+    h3,
+    p,
+    figcaption,
+    span {
+      color: $light !important;
+    }
+    figure {
+      float: left;
+      margin: 3em 20px;
+      width: 720px;
+      max-width: 100%;
+      height: 420px;
+    }
+    main figure:nth-child(2n) {
+      float: right;
+      margin: 3em 20px;
+      width: 720px;
+      height: 420px;
+    }
+    figure img {
+      width: auto;
+      left: 30%;
+      margin: 0 auto;
+      text-align: center;
+      height: 420px;
+      margin-left: 30%;
+    }
+    figcaption {
+      text-align: center;
+      font-size: 0.7em;
+      font-style: italic;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+    object {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
