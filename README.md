@@ -1,2 +1,0 @@
-# mierze.github.io
-blanky
